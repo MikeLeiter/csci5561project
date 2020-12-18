@@ -1,2 +1,2 @@
-# csci5561project
-class
+# CSCI5561
+project

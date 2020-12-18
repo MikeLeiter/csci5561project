@@ -1,0 +1,73 @@
+# Project definitions (do not edit)
+Task: lion_final
+scorer: Leiter
+date: Dec8
+
+# Project path (change when moving around)
+project_path: /Users/mikeleiter/Documents/Project/lion_final-Leiter-2020-12-08
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /Users/mikeleiter/Documents/Project/Videos/lion_defenced_seg.avi:
+    crop: 0, 512, 0, 288
+bodyparts:
+- head
+- frleg
+- flleg
+- brleg
+- blleg
+- tailbase
+- midtail
+- upperbody
+- backbody
+start: 0
+stop: 1
+numframes2pick: 25
+
+# Plotting configuration
+skeleton:
+- - head
+  - upperbody
+- - upperbody
+  - backbody
+- - upperbody
+  - frleg
+- - upperbody
+  - flleg
+- - backbody
+  - blleg
+- - backbody
+  - brleg
+- - backbody
+  - tailbase
+- - tailbase
+  - midtail
+skeleton_color: white
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: jet
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+resnet:
+snapshotindex: -1
+batch_size: 8
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+default_net_type: resnet_50
+default_augmenter: default
