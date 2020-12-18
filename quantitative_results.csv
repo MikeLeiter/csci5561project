@@ -1,0 +1,17 @@
+﻿Using segment in example video Professor Park gave us,,,,,,,
+,,,,,,,
+Frame at time inside video,,,,(Accurate and existing keypoints)/(Expected number of keypoints),,,
+,,,,Original Video,,,De-Fenced video with background removed
+0.5,,,,0.0 / 3.0,,,2.0 / 3.0
+1,,,,2.0 / 7.0,,,6.0 / 7.0 
+1.5,,,,2.0 / 8.0,,,7.0 / 8.0
+2,,,,2.0 / 7.0,,,7.0 / 7.0
+2.5,,,,2.0 / 7.0,,,7.0 / 7.0
+3,,,,2.0 / 7.0,,,7.0 / 7.0
+3.5,,,,2.0 / 7.0,,,7.0 / 7.0
+4,,,,2.0 / 7.0,,,7.0 / 7.0 
+,,,,,,,
+Average,,,,14 / 53 = 26.42%,,,50 / 53 = 94.34%
+,,,,,,,
+,,,,,,,
+"* added "".0"" at end of each number because excel was making them dates",,,,,,,
