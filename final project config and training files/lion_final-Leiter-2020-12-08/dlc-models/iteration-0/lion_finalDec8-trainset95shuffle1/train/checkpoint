@@ -1,0 +1,6 @@
+model_checkpoint_path: "/Users/mikeleiter/Documents/Project/lion_final-Leiter-2020-12-08/dlc-models/iteration-0/lion_finalDec8-trainset95shuffle1/train/snapshot-1100"
+all_model_checkpoint_paths: "/Users/mikeleiter/Documents/Project/lion_final-Leiter-2020-12-08/dlc-models/iteration-0/lion_finalDec8-trainset95shuffle1/train/snapshot-700"
+all_model_checkpoint_paths: "/Users/mikeleiter/Documents/Project/lion_final-Leiter-2020-12-08/dlc-models/iteration-0/lion_finalDec8-trainset95shuffle1/train/snapshot-800"
+all_model_checkpoint_paths: "/Users/mikeleiter/Documents/Project/lion_final-Leiter-2020-12-08/dlc-models/iteration-0/lion_finalDec8-trainset95shuffle1/train/snapshot-900"
+all_model_checkpoint_paths: "/Users/mikeleiter/Documents/Project/lion_final-Leiter-2020-12-08/dlc-models/iteration-0/lion_finalDec8-trainset95shuffle1/train/snapshot-1000"
+all_model_checkpoint_paths: "/Users/mikeleiter/Documents/Project/lion_final-Leiter-2020-12-08/dlc-models/iteration-0/lion_finalDec8-trainset95shuffle1/train/snapshot-1100"
